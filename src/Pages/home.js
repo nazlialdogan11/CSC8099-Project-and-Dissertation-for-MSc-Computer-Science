@@ -1,10 +1,11 @@
 import React from 'react';
+import { TableauEmbed } from "@stoddabr/react-tableau-embed-live";
 const Home = () => {
     return (
-        <div>
-            <h1>GDA PAGE</h1>
-            <p>This is a paragraph.</p>
-            <p>This is another paragraph.</p>
+        <div style={{ paddingTop: "250px", }}>
+            <p>
+                Welcome to the interactive web application for displaying cancer diseases and chemicals trigerring the development of such diseases, with the gene data included.
+            </p>
         </div>
     )
 }
